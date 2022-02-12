@@ -7,10 +7,12 @@
 body {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "navbar navbar" "sidebar blogFrame" "footer footer";
+      grid-template-areas: "navbar navbar"
+ "sidebar blogFrame"
+ "footer footer";
   -ms-grid-columns: 20% 1fr;
       grid-template-columns: 20% 1fr;
-  background-image: url("/background.png");
+  background-image: url("https://github.com/TheDragonSoft/BlogWebsite/blob/main/background.png?raw=true");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
